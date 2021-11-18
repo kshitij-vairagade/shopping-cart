@@ -79,12 +79,7 @@ const EditShop= props => {
       <form className={`pop-up`} onSubmit={handleSubmit(submit)}>
         <h3>Edit Shop Details</h3>
         Name : {edit?edit.name:null}
-        {/* <Field
-          name="name"
-          type="text"
-          component={renderField}
-          label="Name of the shop"
-        /> */}
+        
         <div>
         <label>Area</label>
             <Field 
