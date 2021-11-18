@@ -1,4 +1,4 @@
-import { SHOW_EDIT,CLOSE_EDIT } from "../actions/types";
+import { SHOW_EDIT,CLOSE_EDIT } from "../operations/typito";
 const initialState = null
 export default (state = initialState,action)=>{
     switch(action.type){

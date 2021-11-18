@@ -1,4 +1,4 @@
-import { SHOW_ADD,CLOSE_ADD } from "../actions/types";
+import { SHOW_ADD,CLOSE_ADD } from "../operations/typito";
 const initialState = false
 export default (state = initialState,action)=>{
     switch(action.type){

@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { delete_shop,show_edit } from "../../operations";
 
 
-const Card=({shop,delete_shop,show_edit})=>{
+const Tile=({shop,delete_shop,show_edit})=>{
     const [state,setState] =useState(false)
     const toggle=()=>{
         if(state){
@@ -48,4 +48,4 @@ const mapStateToProps = state => ({
     add:state.add,
     edit:state.edit
  });
- export default connect(mapStateToProps,{delete_shop,show_edit})(Card)
+ export default connect(mapStateToProps,{delete_shop,show_edit})(Tile)

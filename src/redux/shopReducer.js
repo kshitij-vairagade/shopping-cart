@@ -1,4 +1,4 @@
-import {UPDATE_SHOP_LIST} from '../actions/types'; 
+import {UPDATE_SHOP_LIST} from '../operations/typito'; 
 
 const initialState = {}
 

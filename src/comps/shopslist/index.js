@@ -1,8 +1,9 @@
 import { connect } from 'react-redux';
-import AddShop from './AddShop';
-import Tile from './Tile';
-import Edit from './Edit';
-import { show_add,show_edit } from '../../redux/actions/shops';
+import AddShop from '../addshops';
+import styles from './shopslist.css';
+import Tile from './tile';
+import Edit from '../editshops';
+import { show_add } from '../../operations';
 
 const List=({shops,showEdit})=>{
     if (!shops.length){
